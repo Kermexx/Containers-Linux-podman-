@@ -1,0 +1,8 @@
+Ver todos containers que foram criados dentro do podman.
+>>>podman container ls -a<<< 
+
+Remover containers existentes (tem que desligar o container antes).
+>>>podman rm (nome do container)<<<
+
+Para desligar um container.
+>>>podman stop (nome container)<<<
