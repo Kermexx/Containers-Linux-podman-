@@ -1,0 +1,13 @@
+Atividade: Criar um container com o Debian destacável, que tenha python.
+
+1- Criaremos um container Debian com o nome "debian-pyhton", faremos ele interativo usando o comando "-it" e logo em seguida entratremos dentro do Debian usando o comando "debian"
+>>>podman run --name debian-python -it debian"<<<
+
+2- Agora vamos atualizar os repositórios.
+>>>apt-get update<<<
+
+3- Agora vamos baixar o python3.
+>>>apt-get install -y python3<<<
+
+4- Agora testaremos se o python está funcionando.
+>>>python3<<<
