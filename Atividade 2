@@ -1,7 +1,7 @@
 Atividade: Criar um container com o Debian destacável, que tenha python.
 
 1- Criaremos um container Debian com o nome "debian-pyhton", faremos ele interativo usando o comando "-it" e logo em seguida entratremos dentro do Debian usando o comando "debian"
->>>podman run --name debian-python -it debian"<<<
+>>>podman run --name debian-python -dt -it debian"<<<
 
 2- Agora vamos atualizar os repositórios.
 >>>apt-get update<<<
