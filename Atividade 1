@@ -1,0 +1,14 @@
+Atividade: Criar um container com o Debian e que seja interativo, que dentro dele tenha o neofetch.
+
+1- Criaremos um container Debian com o nome "debian-neofetch", faremos ele interativo usando o comando "-it" e logo em seguida entratremos dentro do Debian usando "debian bash".
+>>> podman run --name debian-neofetch -it debian bash <<<
+
+2- Vamos atualizar os repositórios.
+>>> apt-get update<<<
+
+3- Vamos instalar o Neofetch dentro do contêiner, sem a necessidade de confirmação.
+>>>apt-get install -y neofetch<<<
+
+4- Executaremos o neofetch para ter certeza que está instalado.
+>>>neofetch<<<
+     
