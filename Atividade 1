@@ -6,7 +6,7 @@ Atividade: Criar um container com o Debian e que seja interativo, que dentro del
 2- Vamos atualizar os repositórios.
 >>> apt-get update<<<
 
-3- Vamos instalar o Neofetch dentro do contêiner, sem a necessidade de confirmação.
+3- Vamos instalar o Neofetch dentro do container, sem a necessidade de confirmação.
 >>>apt-get install -y neofetch<<<
 
 4- Executaremos o neofetch para ter certeza que está instalado.
