@@ -1,0 +1,10 @@
+Atividade: Criar um container Fedora, interativo que tenha "python" e que tenha a ferramenta "galery-dl".
+
+1- Primeiro vamos ciar um container Fedora interativo nomeado de "fedora-galerryy" e já vamos abrir usando "fedora".
+>>>podman run --name fedora-galerryy -it fedora<<<
+
+2- Vamos agora baixar o python.
+>>>dnf-install python3<<<
+
+3- Vamos agora baixar o gallery-dl.
+>>>dnf-install gallery-dl<<<
