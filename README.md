@@ -1,2 +1,2 @@
 # Fedora
-Aula sobre container FIAP
+Aula sobre containers usando o Fedora, exercicio da faculdade FIAP
